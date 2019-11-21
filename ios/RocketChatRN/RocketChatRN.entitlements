@@ -10,7 +10,7 @@
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.ios.app.pipsmaster</string>
+		<string>group.ios.chat.rocket</string>
 	</array>
 </dict>
 </plist>

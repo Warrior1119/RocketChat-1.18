@@ -13,11 +13,7 @@
     "android": "react-native run-android",
     "snyk-protect": "snyk protect",
     "precommit": "eslint . && jest",
-    "postinstall": "patch-package && jetify",
-    "generate-source-maps-ios": "react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios-release.bundle --sourcemap-output ios-release.bundle.map",
-    "generate-source-maps-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android-release.bundle --sourcemap-output android-release.bundle.map",
-    "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'",
-    "build:andoird": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
+    "postinstall": "patch-package && jetify"
   },
   "husky": {
     "hooks": {
